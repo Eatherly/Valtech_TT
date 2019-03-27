@@ -1,6 +1,9 @@
 # Valtech_TT
 
 Для корректного отображения всех svg-файлов директории /app или /dist следует запускать через виртуальный сервер
+или в корневой директории выполнить npm-i -> gulp watch
+Если не все svg отобразились корректно, то заменить директорию /app/image или /dist/image , на /image из корневой дирректории
+
 
 
 During implementation consider following requirements: 
