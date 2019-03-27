@@ -1,7 +1,7 @@
 # Valtech_TT
 
 Для корректной работы директории /app или /dist следует запускать через виртуальный сервер
-или віполнить в корневом каталоге npm i -> gulp watch
+или выполнить в корневом каталоге npm i -> gulp watch
 
 During implementation consider following requirements: 
 
