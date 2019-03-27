@@ -1,0 +1,245 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  font-family: 'Abel', sans-serif;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+      user-select: none; }
+
+.header {
+  position: fixed;
+  width: 1000px;
+  opacity: 0.95;
+  height: 123px;
+  background-color: #FFFFFF;
+  top: 0;
+  line-height: 123px;
+  z-index: 4; }
+
+#mobButton {
+  display: none; }
+
+.menu {
+  width: 450px;
+  height: 100%;
+  line-height: 123px;
+  float: right; }
+  .menu a {
+    text-decoration: none; }
+  .menu div {
+    display: inline-block;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: normal;
+    line-height: 20px;
+    text-align: center;
+    color: #202020;
+    width: 100px;
+    height: 24px;
+    line-height: 24px; }
+    .menu div:hover {
+      background: #00C8FF;
+      -webkit-border-radius: 5px;
+              border-radius: 5px;
+      color: #FFFFFF; }
+
+.main {
+  margin-top: 135px; }
+
+.contact {
+  text-align: center;
+  width: 100%; }
+
+.greet {
+  font-size: 54px; }
+
+.prev {
+  margin-top: 88px;
+  text-align: left;
+  font-size: 32px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 48px; }
+
+.contactUs {
+  float: left;
+  color: white;
+  font-size: 28px;
+  background-color: #00C8FF;
+  width: 235px;
+  height: 60px;
+  -webkit-border-radius: 7px;
+          border-radius: 7px;
+  border: none;
+  margin-top: 98px; }
+  .contactUs:hover {
+    -webkit-border-radius: 7px;
+            border-radius: 7px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+.services {
+  margin-top: 250px; }
+
+.line {
+  margin: 0 auto;
+  width: 130px;
+  text-align: center;
+  color: #C2C2C2;
+  font-size: 20px;
+  background-color: white;
+  margin-left: 30px;
+  margin-top: -35px;
+  margin-bottom: 30px; }
+
+.row1, .row2 {
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  height: 150px; }
+  .row1 img, .row2 img {
+    float: left; }
+  .row1 .serv_discrip, .row2 .serv_discrip {
+    float: right;
+    width: 70%; }
+    .row1 .serv_discrip .serv_title, .row2 .serv_discrip .serv_title {
+      font-size: 28px;
+      color: black; }
+    .row1 .serv_discrip .serv_text, .row2 .serv_discrip .serv_text {
+      font-size: 16px;
+      color: #B2B2B2; }
+
+.clients .row {
+  margin-top: 50px; }
+
+.clients .col-md-3 {
+  text-align: center; }
+  .clients .col-md-3 svg {
+    fill: #B2B2B2;
+    display: inline; }
+    .clients .col-md-3 svg:hover {
+      fill: black; }
+
+.team {
+  margin-top: 80px;
+  margin-bottom: 50px; }
+
+.footer {
+  height: 100px;
+  background-color: #F7F7F7;
+  line-height: 100px; }
+  .footer div {
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%; }
+  .footer .share {
+    width: 300px;
+    height: 0;
+    float: right;
+    display: table; }
+    .footer .share svg {
+      margin-left: 40px;
+      fill: #B2B2B2;
+      display: inline; }
+      .footer .share svg:hover {
+        fill: black; }
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 100%;
+    margin: 0 auto; }
+  #logo {
+    position: fixed;
+    top: 50px;
+    right: 40px; }
+  .footer-logo {
+    float: none;
+    display: none; }
+  .menu {
+    position: absolute;
+    top: 10px;
+    left: 30px; }
+    .menu a {
+      display: block;
+      height: 25px;
+      width: 40px; }
+      .menu a div {
+        text-align: left; }
+        .menu a div:hover {
+          background: #FFFFFF;
+          -webkit-border-radius: 5px;
+                  border-radius: 5px;
+          color: #202020; }
+  .contact {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%; }
+    .contact .prev {
+      text-align: center; }
+    .contact .contactUs {
+      float: none; }
+      .contact .contactUs:hover {
+        -webkit-border-radius: 7px;
+                border-radius: 7px;
+        -webkit-box-shadow: none;
+                box-shadow: none; }
+  .row1 .right, .row1 .left, .row2 .right, .row2 .left {
+    display: block;
+    height: 200px;
+    margin-bottom: 100px; }
+  .row1 img, .row2 img {
+    float: left;
+    margin-left: -50px; }
+  .row1 .serv_discrip, .row2 .serv_discrip {
+    display: inline-block;
+    width: 350px; }
+  .services {
+    margin: 0 auto;
+    height: 600px;
+    margin-top: 50px;
+    width: 80%; }
+    .services img {
+      margin: 0; }
+  .clients {
+    width: 75%;
+    margin: 0 auto; }
+  .clients .col-md-3 {
+    text-align: center;
+    margin-top: 30px; }
+  .team {
+    text-align: left;
+    width: 20%;
+    margin: 0 auto; }
+  .footer {
+    width: 100%;
+    margin: 0 auto; }
+  .footer .share {
+    float: none;
+    margin: 0 auto; }
+    .footer .share svg:hover {
+      fill: #B2B2B2; }
+  .footer div {
+    width: 30%;
+    margin: 0 auto; }
+  .line {
+    width: 100%;
+    margin-top: 60px;
+    text-decoration: underline;
+    position: relative;
+    left: -25px; }
+  hr {
+    display: none; }
+  #mobButton {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -20px;
+    left: 30px;
+    display: inline;
+    z-index: 4; }
+  #menu {
+    display: none; } }
